@@ -89,6 +89,7 @@
     width: 100%;
     overflow: hidden;
     border-bottom: 2px solid rgb(190, 190, 190);
+    margin-top: 10px;
 }
 /* Banner Image */
 .hero-banner {
@@ -410,7 +411,7 @@
 .about-link:hover {
     color: #B89B72;
 }
-/* skiolls section */
+/* skills section */
 .skills-section {
     background-color: #F8F7F4;
     padding: 80px 0;
@@ -509,4 +510,93 @@
     font-size: 14px;
     font-weight: 600;
     letter-spacing: 4px;
+}
+/* SERVICES SECTION */
+.services-section {
+    background-color: #F8F7F4;
+    padding: 90px 0;
+}
+/* Heading */
+.services-heading {
+    max-width: 650px;
+    margin: 0 auto 50px;
+}
+.services-subtitle {
+    color: #B89B72;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+.services-heading h2 {
+    color: #101828;
+    font-family: 'Playfair Display', serif;
+    font-size: 42px;
+    margin: 12px 0;
+}
+.services-heading p {
+    color: #667085;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+}
+/* Service Cards */
+.service-card {
+    background-color: #FFFFFF;
+    border: 1px solid #E8E4DD;
+    border-radius: 12px;
+    padding: 25px;
+    height: 100%;
+    transition: 0.3s ease;
+}
+.service-card:hover {
+    transform: translateY(-8px);
+    border-color: #B89B72;
+    box-shadow: 0 10px 30px rgba(16, 24, 40, 0.08);
+}
+/* Card Top */
+.service-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.service-top i {
+    color: #B89B72;
+    font-size: 32px;
+}
+.service-top span {
+    color: #B89B72;
+    font-size: 13px;
+    font-weight: 600;
+}
+/* Card Content */
+.service-card h4 {
+    color: #101828;
+    font-family: 'Playfair Display', serif;
+    font-size: 21px;
+    margin-bottom: 15px;
+}
+.service-card p {
+    color: #667085;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px;
+    line-height: 1.8;
+}
+/* Arrow */
+.service-arrow {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 38px;
+    height: 38px;
+    background-color: #101828;
+    color: #FFFFFF;
+    border-radius: 50%;
+    text-decoration: none;
+    margin-top: 10px;
+    transition: 0.3s ease;
+}
+.service-arrow:hover {
+    background-color: #B89B72;
+    color: #FFFFFF;
 }
